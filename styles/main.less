@@ -1,0 +1,47 @@
+#CanvasNotes {
+    width: 80%;
+    // height: 100%;
+    min-height: 10em;
+    transition: opacity 0.5s ease-in-out;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    translate: 0.5em;
+    resize: both;
+    z-index: 1000;
+
+    textarea {
+        height: 100%;
+        width: 100%;
+        border: none;
+        border-top: 1px solid #c7cdd1;
+        border-radius: 0;
+        outline: none;
+        background: transparent;
+        color: #2d3b45;
+        box-shadow: none !important;
+        font-size: 13px;
+        resize: none;
+        font-family: LatoWeb, "Lato Extended", Lato, "Helvetica Neue", Helvetica,
+            Arial, sans-serif;
+
+        &::-webkit-scrollbar {
+            width: 3px;
+        }
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #c7cdd1;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            background: #c7cdd1;
+        }
+    }
+}
+
+#main {
+    padding-bottom: 10em;
+}

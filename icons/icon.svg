@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FBB040;}
+	.st1{font-family:'Verdana-Bold';}
+	.st2{font-size:32px;}
+</style>
+<polygon class="st0" points="9.2,5.71 19.42,1.96 110.05,1.96 119.42,6.73 125.55,15.93 125.55,112.52 117.89,123.09 110.73,125.81 
+	18.23,125.81 7.15,120.36 1.53,110.82 1.53,20.87 3.24,13.72 "/>
+<path d="M108.15,0h-88.3C8.89,0,0,8.89,0,19.85v88.3C0,119.11,8.89,128,19.85,128h88.3c10.96,0,19.85-8.89,19.85-19.85v-88.3
+	C128,8.89,119.11,0,108.15,0z M124,106.45c0,9.69-7.86,17.55-17.55,17.55h-84.9C11.86,124,4,116.14,4,106.45v-84.9
+	C4,11.86,11.86,4,21.55,4h84.9C116.14,4,124,11.86,124,21.55V106.45z"/>
+<g>
+	<rect x="14" y="82.5" width="100" height="5"/>
+</g>
+<g>
+	<rect x="14" y="102.5" width="100" height="5"/>
+</g>
+<rect x="14" y="22.5" width="50" height="5"/>
+<rect x="14" y="42.5" width="50" height="5"/>
+<rect x="14" y="62.5" width="50" height="5"/>
+<text transform="matrix(1 0 0 1 65.7937 37.0476)" class="st1 st2">+</text>
+<text transform="matrix(1 0 0 1 66.0193 67.0247)" class="st1 st2">÷</text>
+<text transform="matrix(1 0 0 1 92.858 68.6072)" class="st1 st2">×</text>
+<text transform="matrix(1.6917 0 0 1 94.561 37.2751)" class="st1 st2">-</text>
+</svg>
