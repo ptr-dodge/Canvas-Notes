@@ -4,7 +4,7 @@
 
 Change the url in `manifest.json` under `matches` to match your canvas homepage.
 
-> Injects a look-alike widget into the canvas page, triple click to make it disappear.
+> Injects a inconspicuous looking widget into the canvas page, triple click to make it disappear.
 
 ## Screenshots
 <img src="widget.png">
