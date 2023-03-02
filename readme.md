@@ -1,7 +1,10 @@
 # Canvas Notes
-> Injects a look-alike widget into the canvas page, triple click to make it disappear.
 
-## [Todo](todo.md)
+## A chrome extension for cheating on canvas tests
+
+Change the url in `manifest.json` under `matches` to match your canvas homepage.
+
+> Injects a look-alike widget into the canvas page, triple click to make it disappear.
 
 ## Screenshots
 <img src="widget.png">
@@ -18,3 +21,5 @@ python icons.py icons_dir/icon128.png
 ```
 
 will output the same image in the sizes specified in `image_sizes` in the same directory
+
+## [Todo.md](todo.md)
