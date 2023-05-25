@@ -1,8 +1,20 @@
-// Very weird bug, cant change '#calc_on' to '#calc', popup page will not show checkboxes.
-import doCheckBoxStuff from "./check.js"
+// build a list of true and false values based on the checkboxes
+// set the list in storage
+// call the list and update the checks
 
-let calc = document.querySelector("#calc_on")
-let google = document.querySelector("#google_on")
+function setChecks() {
+    document.querySelector(".checkBoxes").addEventListener('change', e => {
+        let checkBox = e.target
+        let storage = {checks: [].push(checkBox.checked)}
+        chrome.storage.sync.set(storage)
+        updateChecks()
+    })
+}
 
-doCheckBoxStuff(calc)
-doCheckBoxStuff(google)
+function updateChecks() {
+    chrome.storage.sync.get('checks', checksObj => {
+        console.log(checksObj)
+    })
+}
+
+setChecks()

@@ -1,17 +1,21 @@
 #CanvasNotes {
-  width: 80%;
-  min-height: 10em;
-  transition: opacity 0.5s ease-in-out;
+  all: unset;
+  width: 90%;
+  height: 10em;
+  transition: opacity 0.75s ease-in;
   display: none;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: absolute;
   translate: 0.5em;
   resize: both;
   z-index: 1000;
+  box-shadow: inset 0px -16px 20px 0px rgba(0, 0, 0, 0.163);
 }
 #CanvasNotes textarea {
+  all: unset;
+  padding: 0;
   height: 100%;
   width: 100%;
   border: none;
@@ -23,16 +27,20 @@
   box-shadow: none !important;
   font-size: 13px;
   resize: none;
-  font-family: LatoWeb, "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #CanvasNotes textarea::-webkit-scrollbar {
   width: 3px;
+}
+#CanvasNotes textarea::-webkit-scrollbar:hover {
+  width: 5px;
 }
 #CanvasNotes textarea::-webkit-scrollbar-track {
   background: transparent;
 }
 #CanvasNotes textarea::-webkit-scrollbar-thumb {
-  background: #c7cdd1;
+  background: transparent;
+  border-radius: 1%;
 }
 #CanvasNotes textarea::-webkit-scrollbar-thumb:hover {
   background: #c7cdd1;
